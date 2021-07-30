@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+.margin-t {
+  margin-top: 100px;
+}
+.bg-homepage {
+  background-color: #f2fdff;
+}
+.display-4 {
+  font-weight: 400 !important;
+}
+.homepage-input::placeholder {
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif !important;
+  font-weight: bold !important;
+}

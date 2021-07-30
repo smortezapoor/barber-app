@@ -1,10 +1,17 @@
 import "./App.css";
-import Navbar from "./components/navbar";
 import "./styles.css";
+import Navbar from "./components/navbar";
 import "bootstrap/dist/js/bootstrap.bundle";
+import HomePageContent from "./components/homePageContent";
+import React from "react";
 
 function App() {
-  return <Navbar />;
+  return (
+    <React.Fragment>
+      <Navbar />
+      <HomePageContent />
+    </React.Fragment>
+  );
 }
 
 export default App;
