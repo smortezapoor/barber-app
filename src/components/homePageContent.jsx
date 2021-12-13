@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Map, GoogleApiWrapper } from "google-maps-react";
-import GalleryCarousel from "./tools/galleryCarousel";
 import "../../src/styles.css";
 
 class HomePageContent extends Component {
@@ -42,7 +41,6 @@ class HomePageContent extends Component {
                   Neue top rated frisuren
                 </a>{" "}
               </h4>
-              <GalleryCarousel />
             </div>
             <div className="col-md-6 text-center">
               <h3>Karte Suche</h3>
