@@ -20,7 +20,7 @@ class HomePageContent extends Component {
                 className="form-control form-control-lg rounded homepage-input"
                 placeholder="Wer/Wo?..."
               ></input>
-              <p className="m-3 fs-4 fst-italic">
+              <div className="m-3 fs-4 fst-italic">
                 <ul className="list-style-none">
                   <li className="m-3">-Lorem ipsum dolor sit amet?</li>
                   <li className="m-3">
@@ -35,9 +35,9 @@ class HomePageContent extends Component {
                     Sunt, amet.
                   </li>
                 </ul>
-              </p>
+              </div>
               <h4 className="m-3">
-                <a href="#" class="text-decoration-none">
+                <a href="#" className="text-decoration-none">
                   Neue top rated frisuren
                 </a>{" "}
               </h4>
