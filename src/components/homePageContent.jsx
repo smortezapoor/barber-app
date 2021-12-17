@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Map, GoogleApiWrapper } from "google-maps-react";
 import "../../src/styles.css";
+import Slide from "./slide";
 
 class HomePageContent extends Component {
   render() {
@@ -54,6 +55,7 @@ class HomePageContent extends Component {
                 />
               </div>
             </div>
+            <Slide />
           </div>
         </div>
       </div>

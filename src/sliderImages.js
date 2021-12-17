@@ -1,17 +1,21 @@
 const slideImages = [
   {
     imageName: "one",
-    imageUrl: "https://picsum.photos/id/1003/200/300",
+    imageContent: "this is a sample image content",
+    imageUrl: "https://picsum.photos/id/1003/200/40",
     id: 1,
   },
   {
     imageName: "two",
-    imageUrl: "https://picsum.photos/id/267",
+    imageContent:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, amet.",
+    imageUrl: "https://picsum.photos/id/1003/200/40",
     id: 2,
   },
   {
     imageName: "three",
-    imageUrl: "https://picsum.photos/id/27",
+    imageContent: "Lorem ipsum dolor sit amet consectetur",
+    imageUrl: "https://picsum.photos/id/1003/200/40",
     id: 3,
   },
 ];

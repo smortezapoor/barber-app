@@ -1,14 +1,15 @@
-.each-slide > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
-  height: 350px;
+.slide-image-style {
+  width: 100%;
+  border-radius: 6px;
 }
-
-.each-slide span {
-  padding: 20px;
-  font-size: 20px;
-  background: #efefef;
+.slide-image-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.swiper-custom-style {
+  position: relative;
   text-align: center;
+  color: white !important;
 }
