@@ -3,13 +3,15 @@ import "./styles.css";
 import Navbar from "./components/navbar";
 import "bootstrap/dist/js/bootstrap.bundle";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
 import HomePageContent from "./components/homePageContent";
 import React from "react";
+import HomePageCopy from "./components/homePageCopy";
 function App() {
   return (
     <React.Fragment>
       <Navbar />
-      <HomePageContent />
+      <HomePageCopy />
     </React.Fragment>
   );
 }

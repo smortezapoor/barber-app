@@ -10,7 +10,7 @@ class HomePageContent extends Component {
       height: "350px",
     };
     return (
-      <div className="container margin-t">
+      <div className="container-fluid margin-t">
         <div className="p-4 p-md mb-4 rounded bg-homepage bg-gradient">
           <div className="row">
             <div className="col-md-6 px-0">

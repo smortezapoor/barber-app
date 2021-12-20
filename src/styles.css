@@ -356,6 +356,10 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 }
+a:hover {
+  cursor: pointer;
+  text-decoration: underline !important;
+}
 
 button,
 select {
