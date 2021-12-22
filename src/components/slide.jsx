@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import slideImages from "../sliderImages";
 import "swiper/swiper.min.css";
 import "swiper/swiper-bundle.css";
-import "./tools/slide.css";
+import "./tools/components.css";
 import SwiperCore, {
   Navigation,
   Pagination,

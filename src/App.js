@@ -1,5 +1,5 @@
 import "./App.css";
-import "./styles.css";
+// import "./styles.css";
 import Navbar from "./components/navbar";
 import "bootstrap/dist/js/bootstrap.bundle";
 import "bootstrap/dist/css/bootstrap.min.css";
