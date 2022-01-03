@@ -1,17 +1,16 @@
-import "./App.css";
-// import "./styles.css";
+import React from "react";
+import HomePageContent from "./components/homePageContent";
 import Navbar from "./components/navbar";
+import "./App.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import HomePageContent from "./components/homePageContent";
-import React from "react";
-import HomePageCopy from "./components/homePageCopy";
+import "./styles.css";
 function App() {
   return (
     <React.Fragment>
       <Navbar />
-      <HomePageCopy />
+      <HomePageContent />
     </React.Fragment>
   );
 }

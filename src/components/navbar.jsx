@@ -1,7 +1,7 @@
 import React from "react";
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark fixed-top navbar-bg-blue ">
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top navbar-bg-blue ">
       <div className="container-fluid">
         <a className="navbar-brand  dropdown" href="#">
           Barber App
